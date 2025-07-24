@@ -1,8 +1,8 @@
-﻿**VSAT Nano‐Satellite Project**
+﻿# VSAT Nano‐Satellite Project
 
 A compact **VSAT** (Very Small Aperture Terminal) nano‐satellite designed to measure ultraviolet and infrared spectra in Low Earth Orbit (LEO). repository contains all design files, source code, and documentation for hardware, firmware, and analysis.
 
-**🚀 Key Features**
+## 🚀 Key Features
 
 - **UV & IR Sensing**
   - LTR390 UV sensor (300–350 nm)
@@ -20,18 +20,19 @@ A compact **VSAT** (Very Small Aperture Terminal) nano‐satellite designed to m
   - Thermal and radiation testing
   - In‐lab vacuum and communication validation
 
-**🔧 Setup & Usage**
+## 🔧 Setup & Usage
 
-1. **Clone the Repository**
+### Clone the Repository
 
    git clone https://github.com/<your-username>/vsat-nano-satellite.git\
    cd vsat-nano-satellite
 
-1. **Hardware Build**
+### Hardware Build
    1. Open hardware/schematics/vsat\_schematic.sch in your EDA tool.
-   1. Review BOM.csv for component sourcing.
-   1. Fabricate PCB; assemble under ESD conditions.
-1. **Firmware Programming**
+   2. Review BOM.csv for component sourcing.
+   3. Fabricate PCB; assemble under ESD conditions.
+
+### Firmware Programming
    1. **Arduino Nano**:
 
 cd firmware/arduino\
@@ -50,18 +51,20 @@ Install required sensor libraries, then upload.
    pip install -r requirements.txt\
    python gs\_receive.py --port /dev/ttyUSB0
 
-**📄 Documentation & Figures**
+## 📄 Documentation & Figures
 
 - **Block Diagram**
 - **Wiring Diagram**
 - **Presentation Slides**\
   VSAT overview and test results: [VSAT.pptx](docs/VSAT.pptx)
 
-**🏆 Achievements**
+## 🏆 Achievements
 
 - **Successful UV/IR Spectrum Measurements** in lab prototypes.
 - **Robust PCB** passed thermal cycling and radiation exposure tests.
 - **Fully Functional Telemetry** with ground‐station integration and real‐time plotting.
+- **Got Appreciation by experts and Finalised as TOP 10 in VIKAS'2024
+![With Experts of SpaceGraha Pvt.Ltd]()
 
 **🤝 Contributing**
 
