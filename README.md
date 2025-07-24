@@ -66,7 +66,7 @@ Install required sensor libraries, then upload.
 - **Robust PCB** passed thermal cycling and radiation exposure tests.
 - **Fully Functional Telemetry** with ground‐station integration and real‐time plotting.
 - **Got Appreciation by experts and Finalised as TOP 10 in VIKAS'2024
-![With Experts of SpaceGraha Pvt.Ltd](VIKAS_2024.jpg)
+![With Experts of SpaceGraha Pvt.Ltd](docs/VIKAS_2024.jpg)
 
 **📜 License**
 
