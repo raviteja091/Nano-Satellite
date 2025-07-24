@@ -24,7 +24,7 @@ A compact **VSAT** (Very Small Aperture Terminal) nano‐satellite designed to m
 
 ### Clone the Repository
 
-   git clone https://github.com/<your-username>/vsat-nano-satellite.git\
+   git clone https://github.com/raviteja091/vsat-nano-satellite.git\
    cd vsat-nano-satellite
 
 ### Hardware Build
@@ -51,12 +51,15 @@ Install required sensor libraries, then upload.
    pip install -r requirements.txt\
    python gs\_receive.py --port /dev/ttyUSB0
 
-## 📄 Documentation & Figures
+## Figures
+![Prototype Inside](docs/Prototype.jpg)
+![A](docs/PCB.jpg)
+![P](docs/Prototype2.jpg)
+![B](docs/UV_chamber.jpg)
+![C](docs/UV_chamber2.jpg)
+![D](docs/Results.jpg)
 
-- **Block Diagram**
-- **Wiring Diagram**
-- **Presentation Slides**\
-  VSAT overview and test results: [VSAT.pptx](docs/VSAT.pptx)
+
 
 ## 🏆 Achievements
 
@@ -64,13 +67,7 @@ Install required sensor libraries, then upload.
 - **Robust PCB** passed thermal cycling and radiation exposure tests.
 - **Fully Functional Telemetry** with ground‐station integration and real‐time plotting.
 - **Got Appreciation by experts and Finalised as TOP 10 in VIKAS'2024
-![With Experts of SpaceGraha Pvt.Ltd]()
-
-**🤝 Contributing**
-
-1. Fork the repository.
-1. Create a feature branch.
-1. Submit pull request with detailed test results and documentation updates.
+![With Experts of SpaceGraha Pvt.Ltd](VIKAS_2024.jpg)
 
 **📜 License**
 
