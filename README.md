@@ -52,7 +52,6 @@ Install required sensor libraries, then upload.
    python gs\_receive.py --port /dev/ttyUSB0
 
 ## Figures
-![Prototype Inside](docs/Prototype.jpg)
 ![A](docs/PCB.jpg)
 ![P](docs/Prototype2.jpg)
 ![B](docs/UV_chamber.jpg)
